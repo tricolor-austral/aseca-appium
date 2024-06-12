@@ -19,7 +19,7 @@ public class BaseAndroidTest {
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.ANDROID_UIAUTOMATOR2);
 
         capabilities.setCapability("commandTimeouts", "12000");
-        capabilities.setCapability(MobileCapabilityType.APP, "C:\\Users\\Benja\\projects\\aseca\\appium\\src\\test\\java\\org\\example\\android\\application-1a2992c6-3bd6-41c6-9d09-d2ac68665214.apk");
+        capabilities.setCapability(MobileCapabilityType.APP, "C:\\Users\\Benja\\projects\\ing-sis\\aseca-appium\\src\\test\\java\\org\\example\\android\\application-2323cdac-4ee5-4d10-bee2-f8afccbb0820.apk");
 
         AndroidDriver driver = new AndroidDriver(new URL("http://localhost:4723/"), capabilities);
         return driver;
